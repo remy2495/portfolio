@@ -10,13 +10,14 @@ const About = () => {
       }}
     >
       <section
-        id="about-sidebar"
+        id="sidebar-wrapper"
         style={{
           display: "flex",
           flexDirection: "column",
         }}
       >
         <div
+          id="sidebar-top"
           style={{
             display: "flex",
             flexDirection: "column",
