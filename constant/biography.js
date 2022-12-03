@@ -1,3 +1,3 @@
 export const biography = {
-    name: "Raimi",
+    name: "Raimi Saidin",
 };
