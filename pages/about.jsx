@@ -3,6 +3,7 @@ import Link from "next/link";
 const About = () => {
   return (
     <main
+      id="about-screen"
       style={{
         display: "flex",
         flexDirection: "row",
