@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { biography } from "../constant/biography";
 
 const About = () => {
   return (
@@ -60,7 +61,7 @@ const About = () => {
           {/* Dahsyat betul semua pakai link */}
           <p>BIO</p>
           <p>Image</p>
-          <p>Name</p>
+          <p>{biography.name}</p>
           <p>Details</p>
         </section>
         <section
