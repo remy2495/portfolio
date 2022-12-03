@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  border: 1px dotted blue;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

@@ -2,9 +2,25 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <main>
-      <section id="navigation_pane">
-        <div id="menu-button">
+    <main
+      style={{
+        display: "flex",
+        flexDirection: "row",
+      }}
+    >
+      <section
+        style={{
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            marginRight: "60px",
+          }}
+        >
           <a>Home</a>
           <a>About Me</a>
           <a>Projects</a>
@@ -12,15 +28,28 @@ const About = () => {
           <a>Blogs</a>
           <a>Ding Dong</a>
         </div>
-        <div id="social">
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+          }}
+        >
           <a>Icon</a>
           <a>Icon</a>
           <a>Icon</a>
           <a>Icon</a>
         </div>
-        <button>yeehak</button>
+        <button
+          style={{
+            borderColor: "yellow",
+            borderRadius: "20px",
+            marginRight: "400px",
+          }}
+        >
+          yeehak
+        </button>
       </section>
-      <section id="description">
+      <section style={{}}>
         <section>
           <p>animation</p>
         </section>
@@ -31,7 +60,12 @@ const About = () => {
           <p>Name</p>
           <p>Details</p>
         </section>
-        <section id="stack">
+        <section
+          style={{
+            display: "flex",
+            flexDirection: "row",
+          }}
+        >
           {/* Kenapa pakai link sini? */}
           <p>Stack</p>
           <p>Curious</p>
