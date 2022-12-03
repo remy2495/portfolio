@@ -10,6 +10,7 @@ const About = () => {
       }}
     >
       <section
+        id="about-sidebar"
         style={{
           display: "flex",
           flexDirection: "column",
