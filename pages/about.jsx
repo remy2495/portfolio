@@ -16,6 +16,7 @@ const About = () => {
         }}
       >
         <div
+          id="sidebar-top"
           style={{
             display: "flex",
             flexDirection: "column",
